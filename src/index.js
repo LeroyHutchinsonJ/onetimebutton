@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import OneTimeButton from "./oneTimeButton";
-
+import OneTimeButtonHook from "./oneTimeButtonHook";
 import "./styles.css";
 
 function App() {
-  return <OneTimeButton />;
+  return <OneTimeButtonHook />;
 }
 
 const rootElement = document.getElementById("root");
