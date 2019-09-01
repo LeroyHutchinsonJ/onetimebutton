@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 export default function OneTimeButtonHook() {
+  //Mood is the variable setMood is the function to control it
   var [mood, setMood] = useState(false);
 
   return (
@@ -9,7 +10,7 @@ export default function OneTimeButtonHook() {
       <button
         onClick={() => {
           alert("Hi");
-          setMood((mood = true));
+          setMood(true);
         }}
         disabled={mood}
       >
